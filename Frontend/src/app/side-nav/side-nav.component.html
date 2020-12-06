@@ -1,0 +1,47 @@
+  <!-- Sidebar -->
+  <div class="bg-light border-right" id="sidebar-wrapper">
+    <div class="sidebar-heading"><a class="list-group-item-action" [routerLink]="['/panel']"><i class="fa fa-tachometer"></i> Dashboard</a></div>
+    <div class="list-group list-group-flush">
+        <a class="list-group-item list-group-item-action bg-light" (click)="togglePost()"><i class="fa fa-book"></i> Posts</a>
+        <div class="collapse in" id="collapseExample" [ngClass]="{'show': postsOpen}">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item" routerLinkActive="active">
+                  <a class="list-group-item list-group-item-action bg-light link-collapse" [routerLink]="['/list-post']">list-Post</a>
+              </li>
+              <li class="nav-item" routerLinkActive="active">
+                  <a class="list-group-item list-group-item-action bg-light link-collapse" [routerLink]="['/new-post']">Add New-Post</a>
+              </li>
+              <li class="nav-item" routerLinkActive="active">
+                  <a class="list-group-item list-group-item-action bg-light link-collapse" asp-controller="Home" asp-action="Index">Edit-Post</a>
+              </li>
+          </ul>
+      </div>
+
+        <a class="list-group-item list-group-item-action bg-light" [routerLink]="['/mymessages']"><i class="fa fa-envelope-o"></i> My Messages</a>
+        <a data-toggle="collapse" aria-expanded="true" class="list-group-item list-group-item-action bg-light" (click)="togglePages()"><i class=" fa fa-plus-circle"></i> Pages</a>
+          <div class="collapse in" id="collapseExample" [ngClass]="{'show': pagesOpen}">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item" routerLinkActive="active">
+                      <a class="list-group-item list-group-item-action bg-light link-collapse" asp-controller="Home" asp-action="HomeEdit">Home-Page</a>
+                  </li>
+                  <li class="nav-item" routerLinkActive="active">
+                      <a class="list-group-item list-group-item-action bg-light link-collapse" asp-controller="Home" asp-action="Edit">Edit Home-Page</a>
+                  </li>
+                  <li class="nav-item" routerLinkActive="active">
+                      <a class="list-group-item list-group-item-action bg-light link-collapse" asp-controller="Home" asp-action="Index">About-Page</a>
+                  </li>
+                  <li class="nav-item" routerLinkActive="active">
+                    <a class="list-group-item list-group-item-action bg-light link-collapse" [routerLink]="['/udpate-portfolio']">Udpate-Portfolio</a>
+                  </li>
+                  <li class="nav-item" routerLinkActive="active">
+                    <a class="list-group-item list-group-item-action bg-light link-collapse" [routerLink]="['/new-portfolio']">Create-Portfolio</a>
+                  </li>
+              </ul>
+        </div>
+        <a href="#" class="list-group-item list-group-item-action bg-light"><i class="fa fa-bookmark-o"></i>Overview</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light"><i class="fa fa-calendar"></i>Events</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light"><i class="fa fa-user-circle"></i>Profile</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light"><i class="fa fa-play"></i>Status</a>
+    </div>
+</div>
+

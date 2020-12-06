@@ -1,0 +1,20 @@
+#team {
+    margin: 50px auto;
+}
+
+#team h2 {
+  text-align: center;
+  font-weight: bold;
+  color:#ff9800;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#team h2::after {
+  content: '';
+  display: block;
+  background: #ff9800;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}

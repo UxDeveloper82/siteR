@@ -1,0 +1,278 @@
+<!-- Masthead-->
+<header class="masthead">
+    <div class="container h-100">
+            <carousel>
+                <slide>
+                <img src="assets/images/carousel/slide1.jpg" alt="first slide" style="display: block; width: 100%;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>High Performance</h3>
+                    <p>We Can Create Cool Backgrounds</p>
+                  </div>
+                </slide>
+                <slide>
+                <img src="/assets/images/carousel/slide2.jpg" alt="second slide" style="display: block; width: 100%;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Custom ​​Development</h3>
+                    <p>We Can Optimatize Your Page</p>
+                  </div>
+                </slide>
+                <slide>
+                <img src="assets/images/carousel/slide3.jpg" alt="third slide" style="display: block; width: 100%;">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>You New Ideas</h3>
+                    <p>We Can Help!</p>
+                  </div>
+                </slide>
+            </carousel>
+    </div>
+</header>
+<!-- Masthead-->
+
+
+<!--  ====================== Start Services Area =============================  -->
+<section id="services" class="services-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1 class="text-uppercase text-center">Services We Offer</h1>
+                <p>
+                    Start Today I can help you build better websites using the Bootstrap framework!
+                    I can start customizing, no strings attached!
+                </p>
+                <hr />
+            </div>
+        </div>
+        <div class="row">
+            <div id="services" class="col-lg-3 col-md-6 col-sm-12">
+                  <div class="services">
+                        <div class="sevices-img text-center py-4">
+                            <img src="assets/images/services/s1.png" alt="Services-1" class="img-responsive" />
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-uppercase font-roboto">FullStack</h5>
+                            <p class="card-text text-secondary">
+                                My themes updated regularly to
+                                keep them bug free!
+                            </p>
+                        </div>
+                  </div>
+            </div>
+            <div id="services" class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="services">
+                        <div class="sevices-img text-center py-4">
+                            <img src="assets/images/services/s2.png" alt="Services-2" class="img-responsive"/>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-uppercase font-roboto">ux/ui desing</h5>
+                            <p class="card-text text-secondary">
+                                All dependencies are kept current to
+                                keep things fresh.
+                            </p>
+                        </div>
+                    </div>
+            </div>
+                <div id="services" class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="services">
+                        <div class="sevices-img text-center py-4">
+                            <img src="assets/images/services/s3.png" alt="Services-3" />
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-uppercase font-roboto">web design</h5>
+                            <p class="card-text text-secondary">
+                                You can use my design as is, or you can make changes!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="services" class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="services">
+                        <div class="sevices-img text-center py-4">
+                            <img src="assets/images/services/s4.png" alt="Services-4" />
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-uppercase font-roboto">seo optimize</h5>
+                            <p class="card-text text-secondary">
+                                I can increase the quality and quantity of website traffic
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<section id="card-area">
+  <div class="container mt-5">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="page-header">
+                  <h2>TECHNOLOGIES WE WORK WITH</h2>
+                  <hr />
+              </div>
+          </div>
+      </div>
+      <div id="card" class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12" *ngFor="let repair of repairs; let cardIndex = index">
+                <div class="core-features">
+                    <div class="circle">
+                        <img class="img-fluid" src="/assets/images/Features/{{repair.image}}.png" alt="crib thumbnail">
+                    </div>
+                    <div style="height:230px" class="mb-3">
+                          <h3>{{repair.type}}</h3>
+                          <hr>
+                          <button class="btn btn-sm btn-primary" *ngIf="!repair.showDetails"
+                                (click)="repair.showDetails = !repair.showDetails">Details</button>
+                                 <p *ngIf="repair.showDetails">{{repair.description}}</p>
+                          <button class="btn btn-sm btn-danger" *ngIf="repair.showDetails"
+                                 (click)="repair.showDetails = !repair.showDetails">Close</button>
+                    </div>
+                </div>
+            </div>
+      </div>
+  </div>
+</section>
+
+<section id="thumbgallery">
+    <div class="text-center">
+        <h2 class='text-white font-weight-bold'>Lets get started with your next project</h2>
+        <h2 class="font-weight-bold">Better design</h2>
+        <p class="font-weight-bold">Better experiences.</p>
+        <a [routerLink]="['/contact']" class="btn btn-lg btn-rounded btn-primary">Send Message</a><br>
+    </div>
+    <div class="container">
+        <ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>
+    </div>
+</section>
+<section id="prices">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>We have multiple services we can offer for you from creating a website</h2>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <ul class="price-box">
+                    <li class="header">Simple</li>
+                    <li class="emph"><strong>$ 5.99</strong> / Month</li>
+                    <li><strong>20GB</strong> Disk Space</li>
+                    <li><strong>10GB</strong> Data Transfer</li>
+                    <li><strong>2</strong> Domains</li>
+                    <li><strong>50</strong> Email Accounts</li>
+                    <li><strong>2</strong> FTP Accounts</li>
+                    <li class="emph"><a href="#" class="button">Sign Up</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <ul class="price-box best">
+                    <li class="header header-green">Standard</li>
+                    <li class="emph"><strong>$ 15.99</strong> / Month</li>
+                    <li><strong>75GB</strong> Disk Space</li>
+                    <li><strong>50GB</strong> Data Transfer</li>
+                    <li><strong>10</strong> Domains</li>
+                    <li><strong>100</strong> Email Accounts</li>
+                    <li><strong>Unlimited</strong> FTP Accounts</li>
+                    <li class="emph"><a href="#" class="button">Sign Up</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+            <ul class="price-box">
+                <li class="header">Unlimited</li>
+                <li class="emph"><strong>$ 25.99</strong> / Month</li>
+                <li><strong>120GB</strong> Disk Space</li>
+                <li><strong>100GB</strong> Data Transfer</li>
+                <li><strong>Unlimited</strong> Domains</li>
+                <li><strong>Unlimited</strong> Email Accounts</li>
+                <li><strong>UNlimited</strong> FTP Accounts</li>
+                <li class="emph"><a href="#" class="button">Sign Up</a></li>
+            </ul>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+ <!-- toggle area -->
+ <accordion>
+    <section id="accordion">
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-12 text-center">
+                     <h2>WEBSITE DESIGN & HOSTING SERVICES</h2>
+                     <hr>
+                 </div>
+                 <accordion-group heading="Web Development.....Click Here For More Info" class="accordion text-center">
+                 <div class="panel">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <img src="assets/images/accordion/web-development.jpg" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                           <h3 class="text-black-50">Web-Design</h3>
+                           <hr />
+                           <p>All our designed come with one goal in mind: driving traffic to your site and improving the success of your business.
+                             There's always room for improvement!</p>
+                        </div>
+                      </div>
+                 </div>
+                 </accordion-group>
+                 <accordion-group heading="Software Developement.....Click Here For More Info" class="accordion text-center">
+                 <div class="panel">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <img src="assets/images/accordion/software-developer.jpg" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                          <h3 class="text-black-50">Software-Developing</h3>
+                          <hr />
+                          <p>We build and host not only our client’s websites, but our company’s websites. We use Asp.net for many reasons.
+                            For instance, some other content developers use expensive and cluttered website content developers. We made any website user-friendly.
+                            and grow right along with your business! </p>
+                        </div>
+                      </div>
+                 </div>
+                 </accordion-group>
+                 <accordion-group heading="FullStack Developement.....Click Here For More Info" class="accordion text-center">
+                 <div class="panel">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <img src="assets/images/accordion/Web-Development.jpeg" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                          <h3 class="text-black-50">Software-Developing</h3>
+                          <hr />
+                          <p>We can build and manage all the stacks of an application meaning Front-end, Back-end, database, version control, server and APIs.</p>
+                        </div>
+                      </div>
+                 </div>
+                 </accordion-group>
+             </div>
+         </div>
+     </section>
+    </accordion>
+<!--  ====================== End Services Area =============================  -->
+<section id="contact">
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <h2 class="section-heading">Let's Get In Touch!</h2>
+                <hr class="my-4">
+                <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 ml-auto text-center">
+                <i class="fa fa-phone fa-3x mb-3 sr-contact-1"></i>
+                <p><a class="btn btn-primary" href="tel:8639698248">863-969-8248</a></p>
+            </div>
+            <div class="col-lg-4 mr-auto text-center">
+                <i class="fa fa-envelope fa-3x mb-3 sr-contact-2"></i>
+                <p>
+                    <a class="btn btn-primary" href="mailto:electronicsmf@aol.com">Electronicsmf@aol.com</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--  ========================== End Subscribe me Area ============================  -->

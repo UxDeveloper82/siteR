@@ -1,0 +1,274 @@
+/* header */
+header.masthead {
+  padding-top: 2rem;
+  padding-bottom: calc(10rem -4.5m);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.masthead h1{
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2.25rem;
+}
+header.masthead p {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    min-height: 25rem;
+    padding-top: 1rem;
+    padding-bottom: 0;
+  }
+  header.masthead p {
+    color:white;
+    font-size: 1.45rem;
+  }
+  header.masthead h1 {
+    color:white;
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.masthead h1 {
+    font-size: 4.5rem;
+  }
+}
+
+
+/* Banner Area */
+.site-banner {
+    background: url('/assets/images/home-banner.png') no-repeat 0% 50%;
+  }
+
+
+  .site-banner .site-title h1 {
+         text-shadow: 2px 2px gray;
+        color: black;
+        font-size: 5rem;
+  }
+
+  .site-banner .site-title h2 {
+      color:black;
+      font-size: 1.5rem;
+  }
+
+  /* End Banner Area */
+  /* Services Area */
+  #services {
+  padding: 50px 15px;
+}
+
+  #services .services {
+    text-align: center;
+    border: 1px solid;
+    border-radius: 5%;
+    padding: 10px;
+    background: rgba(248, 252, 253, 0.973);
+  }
+
+  #services .services:hover {
+        box-shadow: 5px 10px black;
+    }
+  /* End Services Area */
+/* Thumbnail */
+
+#thumbgallery {
+  background-image: url('/assets/images/tech-bg.jpg');
+  margin: 20px;
+  padding: 0;
+  background:#007bff;
+}
+#thumbgallery h2, p{
+   color: white;
+}
+
+#thumbgallery .container {
+      max-width: 760px;
+      margin: auto;
+      border: #fff solid 3px;
+      background: #fff;
+
+}
+
+#thumbgallery .container .main-img img,
+  .imgs img{
+     width: 100%;
+     z-index: -1;
+}
+
+#thumbgallery .container .imgs {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 5px;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+#thumbgallery .fade-in {
+opacity: 0;
+animation:fadeIn 0.5s ease-in 1 forwards;
+}
+
+
+/* Prices */
+#prices{
+  padding: 100px 0px;
+
+}
+#prices .price-box{
+  background:#fff;
+  color:#555;
+  list-style-type:none;
+  border:1px solid #555;
+  margin:0;
+  padding:0;
+  transition:0.3s;
+}
+#prices .price-box:hover, .price-box.best{
+  box-shadow: 0 10px 15px 0 #000;
+}
+
+#prices .price-box:hover, .price-box.best{
+  box-shadow: 0 10px 15px 0 #000;
+}
+
+#prices .price-box .header{
+  background-color:#111;
+  color:#fff;
+  font-size:25px;
+}
+
+
+.price-box .header.header-green{
+  background-color:#4CAf50;
+}
+
+.price-box li{
+  padding:20px;
+  border-bottom:1px solid #eee;
+  text-align:center;
+}
+
+.price-box .emph{
+  background-color:#f4f4f4;
+  font-size:20px;
+}
+
+.button{
+  background-color:#4CAf50;
+  border:none;
+  color:#fff;
+  padding: 10px 15px;
+  text-align:center;
+  text-decoration:none;
+  font-size:18px;
+}
+
+@media(max-width:700px){
+  .col{
+    width:100%;
+  }
+}
+  /*  Card Area*/
+  #card-area {
+    margin: 50px auto;
+  }
+
+  #card-area h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #ff9800;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  #card-area h2::after{
+    content:'';
+    display: block;
+    background: #ff9800;
+    height:3px;
+    width:170px;
+    margin:20px auto 5px;
+  }
+  #card-area .core-features {
+    box-shadow: 0 0 10px 0 rgba(83, 82, 82,0.1);
+    margin-bottom: 30px;
+    text-align: center;
+    background: #fff;
+  }
+  #card-area .core-features h3 {
+        color: #232323;
+        font-size: 18px;
+        padding: 30px 0 10px;
+        text-transform: capitalize;
+    }
+  #card-area .core-features p {
+        color: #232323;
+        font-size: 14px;
+        padding: 0 15px;
+    }
+  #card-area .circle {
+    border: 5px solid #f3f3f5;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px #e7e8ec inset;
+    width: 120px;
+    height: 120px;
+    display: inline-block;
+    color: #27ae60;
+    margin-bottom: 10px;
+  }
+  #card-area .circle img {
+        display: table;
+        height: 74px;
+        margin: 16px auto;
+        width: 74px;
+    }
+  /*Card area End*/
+
+ /*--[Accordion-area]--*/
+ .accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+.accordion .panel {
+  width:100%;
+  padding: 0 18px;
+  background-color: white;
+}
+
+/* End subscribe me */
+#contact{
+  background: url("/assets/images/contact-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+#contact h2, p{
+  color: black;
+}
+#contact>p a{
+  font-weight: 700;
+  font-size: 2.5rem;
+  color:red;
+}

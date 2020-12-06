@@ -1,0 +1,128 @@
+  <div class="container">
+    <div class="row">
+         <div class="col-lg-12 bg-dark mt-2">
+              <div class="text-center">
+                  <h2 class='text-white font-weight-bold'>Lets get started with your next project</h2>
+                  <h2 class="font-weight-bold">Better design</h2>
+                  <p class="font-weight-bold">Better experiences.</p>
+              </div>
+         </div>
+    </div>
+
+    <div class="row shadow">
+      <div class="col-sm-4 p-0">
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img class="card-img-top" src="assets/images/port/default-image.png">
+          </div>
+          <div class="card-body">
+            <h1 class="card-title">Project Name</h1>
+            <div>
+                <strong></strong>
+            </div>
+            <div>
+               <strong>Technologies</strong>
+            </div> <hr>
+            <div>
+                <strong>Build With: </strong>
+
+            </div>
+
+            <div>
+                <strong>Hours Took: </strong>
+
+            </div>
+            <div>
+                <strong>Tech Support: </strong>
+
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="btn-group d-flex">
+              <button class="btn btn-primary">Like</button>
+              <button [routerLink]="['/contact']" class="btn btn-success">Message</button>
+            </div>
+          </div>
+      </div>
+      </div>
+      <div class="col-sm-8 p-0">
+        <div class="tab-panel p-3">
+          <tabset class="member-tabset">
+            <tab heading="Overview">
+              <h1>Overview</h1>
+              <div class="row">
+                  <div class="col-sm-6">
+                      <div class="heading">
+                          <strong>Project Name</strong>
+                          <p>Name</p>
+                      </div>
+
+                      <div class="heading">
+                          <strong>How Many Pages</strong>
+                          <p></p>
+                      </div>
+
+                      <div class="heading">
+                          <strong>Hosting By</strong>
+                          <p></p>
+                      </div>
+
+                      <div class="heading">
+                          <strong>Styles</strong>
+                          <p></p>
+                      </div>
+                  </div>
+
+                  <div class="col-sm-6">
+                      <div class="heading">
+                          <strong>Data Base Name</strong>
+                          <p>MainEntrance</p>
+                      </div>
+
+                      <div class="heading">
+                          <strong>Framework Name</strong>
+                          <p>Gated</p>
+                      </div>
+
+                      <div class="heading">
+                          <strong>Security</strong>
+                          <p>Security</p>
+                      </div>
+                      <div class="heading">
+                          <strong>Maintenance By</strong>
+                          <p>Maintenance</p>
+                      </div>
+                  </div>
+                  <div class="col-sm-12">
+                      <div class="heading">
+                          <strong>About Web-Site</strong>
+                          <p>Description</p>
+                      </div>
+                  </div>
+                </div>
+            </tab>
+            <tab heading="Create By">
+              <div class="col-sm-12">
+                <h1>Developer Name</h1>
+                <div class="heading">
+                    <strong>address1</strong><br/>
+                    <strong>address2</strong><br/>
+                    <strong>city</strong>
+                </div>
+            </div>
+
+            </tab>
+            <tab heading="Photos">
+              <ngx-gallery [options]="galleryOptions" [images]="galleryImages" class="ngx-gallery"></ngx-gallery>
+            </tab>
+            <tab heading="Contact">
+              <h1>Contact Detail</h1>
+              This should be restricted area and only registered user should be able to see seller contact details
+            </tab>
+          </tabset>
+        </div>
+      </div>
+    </div>
+  </div>
+
+

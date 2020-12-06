@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAuQDvjTYnuUKCVl9XQWYKZAAAAAACAAAAAAAQZgAAAAEAACAAAAAJ018CXAf+383PDrJ+znLk1YLp9vmd5dT5ys/iMgDCJgAAAAAOgAAAAAIAACAAAADSFI6iKIN8Fp1XCcKBMBwfTxeCQ8ZG3c7ZgqZOdb9ZFSAAAABDQoeLCnuqfEkw7nFfG35iVF60z0SyiGn0UlNOkacJlkAAAABaXqIkL2c17xo6QfzEhE5+qv/jf39zxio0gzi81zsAppbeQ4H19TmREzmeMP5mEG5AmwJTzBEzHHfXUnL4K7sJ</EncryptedPassword>
+    <_PublishTargetUrl>ftp://ftp.site4now.net/sites4u</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>12/05/2020 22:12:55</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>12/05/2020 22:56:29</publishTime>
+    </File>
+    <File Include="AutoMapper.dll">
+      <publishTime>08/12/2019 12:42:04</publishTime>
+    </File>
+    <File Include="AutoMapper.Extensions.Microsoft.DependencyInjection.dll">
+      <publishTime>08/12/2019 13:19:42</publishTime>
+    </File>
+    <File Include="CloudinaryDotNet.dll">
+      <publishTime>04/23/2019 07:13:00</publishTime>
+    </File>
+    <File Include="Data/UserSeedData.json">
+      <publishTime>12/04/2020 21:45:38</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Authentication.JwtBearer.dll">
+      <publishTime>09/15/2019 21:01:48</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.JsonPatch.dll">
+      <publishTime>11/16/2019 11:17:28</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll">
+      <publishTime>11/16/2019 11:25:44</publishTime>
+    </File>
+    <File Include="Microsoft.Bcl.AsyncInterfaces.dll">
+      <publishTime>11/15/2019 08:38:02</publishTime>
+    </File>
+    <File Include="Microsoft.Bcl.HashCode.dll">
+      <publishTime>11/15/2019 08:38:50</publishTime>
+    </File>
+    <File Include="Microsoft.Data.SqlClient.dll">
+      <publishTime>09/26/2019 20:43:28</publishTime>
+    </File>
+    <File Include="Microsoft.Data.Sqlite.dll">
+      <publishTime>01/01/1980 00:00:00</publishTime>
+    </File>
+    <File Include="Microsoft.DotNet.PlatformAbstractions.dll">
+      <publishTime>11/15/2019 15:51:04</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>01/01/1980 00:00:00</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>01/01/1980 00:00:00</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>01/01/1980 00:00:00</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Sqlite.dll">
+      <publishTime>01/01/1980 00:00:00</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.SqlServer.dll">
+      <publishTime>01/01/1980 00:00:00</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.NewtonsoftJson.dll">
+      <publishTime>01/01/1980 00:00:00</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyModel.dll">
+      <publishTime>11/15/2019 15:50:42</publishTime>
+    </File>
+    <File Include="Microsoft.Identity.Client.dll">
+      <publishTime>04/29/2019 22:04:14</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>10/18/2019 23:39:24</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Logging.dll">
+      <publishTime>10/18/2019 23:40:20</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.dll">
+      <publishTime>06/24/2019 19:54:24</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <publishTime>06/24/2019 19:59:32</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>10/18/2019 23:43:40</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.Bson.dll">
+      <publishTime>11/27/2018 23:10:18</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>04/22/2019 01:06:16</publishTime>
+    </File>
+    <File Include="runtimes/alpine-x64/native/libe_sqlite3.so">
+      <publishTime>05/28/2019 15:03:36</publishTime>
+    </File>
+    <File Include="runtimes/linux-arm/native/libe_sqlite3.so">
+      <publishTime>05/28/2019 15:04:10</publishTime>
+    </File>
+    <File Include="runtimes/linux-arm64/native/libe_sqlite3.so">
+      <publishTime>05/28/2019 15:03:52</publishTime>
+    </File>
+    <File Include="runtimes/linux-armel/native/libe_sqlite3.so">
+      <publishTime>05/28/2019 15:04:26</publishTime>
+    </File>
+    <File Include="runtimes/linux-musl-x64/native/libe_sqlite3.so">
+      <publishTime>05/28/2019 15:03:36</publishTime>
+    </File>
+    <File Include="runtimes/linux-x64/native/libe_sqlite3.so">
+      <publishTime>05/28/2019 15:03:08</publishTime>
+    </File>
+    <File Include="runtimes/linux-x86/native/libe_sqlite3.so">
+      <publishTime>05/28/2019 15:03:22</publishTime>
+    </File>
+    <File Include="runtimes/osx-x64/native/libe_sqlite3.dylib">
+      <publishTime>05/28/2019 15:30:42</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll">
+      <publishTime>05/15/2018 13:29:40</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>09/26/2019 20:43:26</publishTime>
+    </File>
+    <File Include="runtimes/win-arm/native/e_sqlite3.dll">
+      <publishTime>08/15/2019 18:14:08</publishTime>
+    </File>
+    <File Include="runtimes/win-arm64/native/e_sqlite3.dll">
+      <publishTime>08/15/2019 18:14:28</publishTime>
+    </File>
+    <File Include="runtimes/win-arm64/native/sni.dll">
+      <publishTime>07/12/2017 14:24:24</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/e_sqlite3.dll">
+      <publishTime>08/15/2019 18:13:54</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/sni.dll">
+      <publishTime>07/12/2017 14:24:22</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/e_sqlite3.dll">
+      <publishTime>08/15/2019 18:13:34</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/sni.dll">
+      <publishTime>07/12/2017 14:24:22</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll">
+      <publishTime>05/15/2018 13:29:40</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll">
+      <publishTime>09/26/2019 20:43:26</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>05/15/2018 13:29:44</publishTime>
+    </File>
+    <File Include="sideR.deps.json">
+      <publishTime>12/05/2020 23:22:44</publishTime>
+    </File>
+    <File Include="sideR.dll">
+      <publishTime>12/05/2020 23:22:43</publishTime>
+    </File>
+    <File Include="sideR.exe">
+      <publishTime>12/05/2020 23:22:43</publishTime>
+    </File>
+    <File Include="sideR.pdb">
+      <publishTime>12/05/2020 23:22:43</publishTime>
+    </File>
+    <File Include="sideR.runtimeconfig.json">
+      <publishTime>12/05/2020 22:35:15</publishTime>
+    </File>
+    <File Include="SQLitePCLRaw.batteries_v2.dll">
+      <publishTime>11/01/2019 17:24:10</publishTime>
+    </File>
+    <File Include="SQLitePCLRaw.core.dll">
+      <publishTime>11/01/2019 17:23:34</publishTime>
+    </File>
+    <File Include="SQLitePCLRaw.nativelibrary.dll">
+      <publishTime>11/01/2019 17:23:32</publishTime>
+    </File>
+    <File Include="SQLitePCLRaw.provider.dynamic_cdecl.dll">
+      <publishTime>11/01/2019 17:23:56</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>05/15/2018 13:29:38</publishTime>
+    </File>
+    <File Include="System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>10/18/2019 23:38:18</publishTime>
+    </File>
+    <File Include="System.Runtime.Caching.dll">
+      <publishTime>05/15/2018 13:29:40</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>05/15/2018 13:29:44</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>12/05/2020 23:22:45</publishTime>
+    </File>
+    <File Include="wwwroot/3rdpartylicenses.txt">
+      <publishTime>12/05/2020 23:17:12</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/about-bg.jpg">
+      <publishTime>08/18/2020 00:12:34</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/accordion/software-developer.jpg">
+      <publishTime>07/11/2020 15:43:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/accordion/Web-Development.jpeg">
+      <publishTime>07/11/2020 15:58:02</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/accordion/web-development.jpg">
+      <publishTime>07/11/2020 15:59:06</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/admin/about-me.png">
+      <publishTime>01/06/2020 02:18:28</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/admin/me.jpg">
+      <publishTime>05/02/2015 20:58:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/admin/user.png">
+      <publishTime>11/19/2018 11:59:18</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/blog2.png">
+      <publishTime>12/01/2018 18:16:18</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/blog4.png">
+      <publishTime>12/01/2018 18:19:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/carousel/slide1.jpg">
+      <publishTime>11/05/2018 22:34:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/carousel/slide2.jpg">
+      <publishTime>08/09/2020 09:27:10</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/carousel/slide3.jpg">
+      <publishTime>08/09/2020 10:06:01</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/contact-bg.jpg">
+      <publishTime>09/22/2018 18:27:02</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/contact-bg.png">
+      <publishTime>08/02/2020 00:47:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/contact/mail.png">
+      <publishTime>06/27/2020 14:54:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/data.png">
+      <publishTime>11/14/2018 18:13:44</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/design.png">
+      <publishTime>12/01/2018 18:06:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/ecommerce.png">
+      <publishTime>11/08/2018 19:27:18</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/Features/1.png">
+      <publishTime>06/26/2020 00:36:30</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/Features/2.png">
+      <publishTime>06/26/2020 00:36:52</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/Features/3.png">
+      <publishTime>06/26/2020 00:50:38</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/Features/4.png">
+      <publishTime>06/26/2020 00:51:32</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/Features/5.png">
+      <publishTime>06/26/2020 00:51:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/Features/6.png">
+      <publishTime>06/26/2020 00:52:14</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/Features/7.png">
+      <publishTime>06/26/2020 00:53:48</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/Features/8.png">
+      <publishTime>06/26/2020 00:58:24</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/footer/footer.jpg">
+      <publishTime>06/12/2020 02:11:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/footer/footer1.png">
+      <publishTime>11/14/2018 18:21:18</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/footer/footer2.png">
+      <publishTime>12/01/2018 18:17:24</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/footer/footer3.png">
+      <publishTime>12/01/2018 18:15:22</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/home-banner.png">
+      <publishTime>01/07/2020 00:29:52</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/img/default-image.png">
+      <publishTime>07/25/2020 09:56:01</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/img/img1.jpeg">
+      <publishTime>06/07/2020 21:46:28</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/img/img2.jpeg">
+      <publishTime>06/07/2020 23:48:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/img/img3.jpeg">
+      <publishTime>06/07/2020 23:49:16</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/img/img4.jpeg">
+      <publishTime>06/07/2020 23:49:58</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/img/img5.jpeg">
+      <publishTime>06/07/2020 23:50:24</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/img/img6.jpeg">
+      <publishTime>06/07/2020 23:52:12</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/img/img7.jpeg">
+      <publishTime>06/07/2020 23:51:22</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/img/img8.jpeg">
+      <publishTime>06/07/2020 23:51:46</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/music.png">
+      <publishTime>12/01/2018 18:11:10</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/my-bg.jpg">
+      <publishTime>08/18/2020 00:21:24</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/photography.png">
+      <publishTime>12/01/2018 18:08:00</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/port/axios.png">
+      <publishTime>06/23/2020 10:22:20</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/port/budget.png">
+      <publishTime>06/20/2020 23:22:08</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/port/data.png">
+      <publishTime>04/12/2019 00:30:08</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/port/default-image.jpg">
+      <publishTime>08/16/2020 19:32:24</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/port/default-image.png">
+      <publishTime>08/16/2020 19:40:27</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/port/ecommerce.png">
+      <publishTime>04/13/2020 22:21:46</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/port/fetch.png">
+      <publishTime>06/23/2020 10:23:24</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/port/Friendsite.png">
+      <publishTime>06/02/2020 02:04:30</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/port/gitfit.png">
+      <publishTime>11/08/2019 00:59:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/port/githubfinder.png">
+      <publishTime>06/02/2020 02:05:28</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/port/grid.png">
+      <publishTime>11/07/2019 23:59:30</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/port/image_hide.png">
+      <publishTime>06/20/2020 23:22:36</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/port/interactive_table.png">
+      <publishTime>06/20/2020 23:23:10</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/port/Inventory.png">
+      <publishTime>04/13/2020 22:26:28</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/port/jscrud.png">
+      <publishTime>06/23/2020 10:24:22</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/port/jsmanipulating.png">
+      <publishTime>06/06/2020 00:35:02</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/port/mobil.png">
+      <publishTime>11/23/2019 15:15:08</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/port/netflixjs.png">
+      <publishTime>06/06/2020 00:30:46</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/port/orrepair.png">
+      <publishTime>04/13/2020 22:55:06</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/port/photography.png">
+      <publishTime>04/12/2019 00:30:08</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/port/slidejs.png">
+      <publishTime>06/23/2020 23:09:12</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/port/slider.png">
+      <publishTime>11/08/2019 01:02:42</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/port/ui.png">
+      <publishTime>11/08/2019 00:12:00</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/port/websites.png">
+      <publishTime>04/12/2019 00:30:08</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/services/s1.png">
+      <publishTime>01/06/2020 02:52:34</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/services/s2.png">
+      <publishTime>01/06/2020 02:52:48</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/services/s3.png">
+      <publishTime>01/06/2020 02:53:00</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/services/s4.png">
+      <publishTime>01/06/2020 02:53:12</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/tech-bg.jpg">
+      <publishTime>08/17/2020 22:59:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/technology-bg.jpg">
+      <publishTime>08/17/2020 22:37:19</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/technology/angular.png">
+      <publishTime>08/17/2020 23:09:19</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/technology/Bootstrap.png">
+      <publishTime>08/17/2020 23:12:00</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/technology/css3.jpg">
+      <publishTime>08/17/2020 23:11:30</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/technology/html5.png">
+      <publishTime>08/17/2020 23:10:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/technology/javascript.jpg">
+      <publishTime>08/17/2020 23:10:19</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/testimonials/t1.jpg">
+      <publishTime>06/08/2020 23:47:48</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/testimonials/t2.jpg">
+      <publishTime>06/08/2020 23:48:00</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/tools/devtools.png">
+      <publishTime>07/07/2020 00:12:04</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/tools/github.png">
+      <publishTime>07/07/2020 00:12:28</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/tools/vs2019.png">
+      <publishTime>07/07/2020 00:12:56</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/tools/vscode.png">
+      <publishTime>07/07/2020 00:13:22</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/websites.png">
+      <publishTime>11/08/2018 19:29:28</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/websites/codeavengers.png">
+      <publishTime>04/12/2020 17:58:54</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/websites/codecademy.png">
+      <publishTime>04/12/2020 17:46:00</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/websites/codewars.png">
+      <publishTime>04/12/2020 18:53:12</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/websites/freecodecamp.png">
+      <publishTime>04/12/2020 18:49:52</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/websites/khanacademy.png">
+      <publishTime>04/12/2020 18:43:36</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/websites/pluralsight.png">
+      <publishTime>04/12/2020 18:47:16</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/websites/treehouse.png">
+      <publishTime>04/12/2020 18:35:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/websites/udacity.png">
+      <publishTime>04/12/2020 18:45:26</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/websites/udemy.png">
+      <publishTime>04/12/2020 18:47:34</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/websites/w3schools.png">
+      <publishTime>04/12/2020 18:50:32</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/wheel.jpg">
+      <publishTime>06/09/2020 04:05:40</publishTime>
+    </File>
+    <File Include="wwwroot/assets/images/youtube.png">
+      <publishTime>06/29/2020 10:22:22</publishTime>
+    </File>
+    <File Include="wwwroot/assets/user.png">
+      <publishTime>08/29/2020 22:02:29</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>07/29/2020 06:54:39</publishTime>
+    </File>
+    <File Include="wwwroot/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf">
+      <publishTime>12/05/2020 23:17:12</publishTime>
+    </File>
+    <File Include="wwwroot/fontawesome-webfont.20fd1704ea223900efa9.woff2">
+      <publishTime>12/05/2020 23:17:12</publishTime>
+    </File>
+    <File Include="wwwroot/fontawesome-webfont.8b43027f47b20503057d.eot">
+      <publishTime>12/05/2020 23:17:12</publishTime>
+    </File>
+    <File Include="wwwroot/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg">
+      <publishTime>12/05/2020 23:17:12</publishTime>
+    </File>
+    <File Include="wwwroot/fontawesome-webfont.f691f37e57f04c152e23.woff">
+      <publishTime>12/05/2020 23:17:12</publishTime>
+    </File>
+    <File Include="wwwroot/index.html">
+      <publishTime>12/05/2020 23:17:13</publishTime>
+    </File>
+    <File Include="wwwroot/main.0fe4a036301c4aebfb8f.js">
+      <publishTime>12/05/2020 23:17:12</publishTime>
+    </File>
+    <File Include="wwwroot/main.5f75579405d944917d5d.js">
+      <publishTime>12/05/2020 12:50:51</publishTime>
+    </File>
+    <File Include="wwwroot/main.f9b8d6098222335d8da7.js">
+      <publishTime>12/05/2020 23:06:21</publishTime>
+    </File>
+    <File Include="wwwroot/polyfills.a4021de53358bb0fec14.js">
+      <publishTime>12/05/2020 23:17:12</publishTime>
+    </File>
+    <File Include="wwwroot/runtime.e227d1a0e31cbccbf8ec.js">
+      <publishTime>12/05/2020 23:17:12</publishTime>
+    </File>
+    <File Include="wwwroot/scripts.e3f1622784b881f14c87.js">
+      <publishTime>12/05/2020 23:17:12</publishTime>
+    </File>
+    <File Include="wwwroot/styles.c1d213cad6215b56b000.css">
+      <publishTime>12/05/2020 23:17:12</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

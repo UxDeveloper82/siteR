@@ -12,8 +12,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Backend.Controllers
 {
-     [ServiceFilter(typeof(LogUserActivity))]
-    [Authorize]
+    [ServiceFilter(typeof(LogUserActivity))]
     [Route("api/[controller]")]
     [ApiController]
     public class UsersController : ControllerBase
@@ -26,6 +25,7 @@ namespace Backend.Controllers
             _repo = repo;
         }
 
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IActionResult> GetUsers([FromQuery] UserParams userParams)
         {
@@ -49,7 +49,7 @@ namespace Backend.Controllers
 
             return Ok(usersToReturn);
         }
-
+        [AllowAnonymous]
         [HttpGet("{id}", Name="GetUser")]
         public async Task<IActionResult> GetUser(int id)
         {

@@ -13,7 +13,9 @@ import { PortService } from './_services/port.service';
 import { MyblogService } from './_services/myblog.service';
 import { JwtModule } from '@auth0/angular-jwt';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { ModalModule } from 'ngx-bootstrap/modal';
 import { PaginationModule } from 'ngx-bootstrap/pagination';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
@@ -58,6 +60,14 @@ import { PortfolioNewComponent } from './myportfolio/portfolio-new/portfolio-new
 import { ListsComponent } from './lists/lists.component';
 import { MemberMessagesComponent } from './members/member-messages/member-messages.component';
 import { MessagesComponent } from './messages/messages.component';
+import { CommunityComponent } from './community/community.component';
+import { RegisterComponent } from './register/register.component';
+import { AdminPanelComponent } from './admin/admin-panel/admin-panel.component';
+import { HasRoleDirective } from './_directives/hasRole.directive';
+import { PhotoManagementComponent } from './admin/photo-management/photo-management.component';
+import { RolesModalComponent } from './admin/roles-modal/roles-modal.component';
+import { UserManagementComponent } from './admin/user-management/user-management.component';
+import { AdminService } from './_services/admin.service';
 
 // tslint:disable-next-line: typedef
 export function tokenGetter() {
@@ -92,7 +102,14 @@ export function tokenGetter() {
     PortfolioNewComponent,
     ListsComponent,
     MemberMessagesComponent,
-    MessagesComponent
+    MessagesComponent,
+    CommunityComponent,
+    RegisterComponent,
+    AdminPanelComponent,
+    HasRoleDirective,
+    PhotoManagementComponent,
+    RolesModalComponent,
+    UserManagementComponent
   ],
   imports: [
     BrowserModule,
@@ -101,6 +118,8 @@ export function tokenGetter() {
     HttpClientModule,
     FileUploadModule,
     Ng2SearchPipeModule,
+    ReactiveFormsModule,
+    ModalModule.forRoot(),
     BsDropdownModule.forRoot(),
     AccordionModule.forRoot(),
     TabsModule.forRoot(),
@@ -109,13 +128,14 @@ export function tokenGetter() {
     ButtonsModule.forRoot(),
     CarouselModule.forRoot(),
     TimeagoModule.forRoot(),
+    BsDatepickerModule.forRoot(),
     RouterModule.forRoot(appRoutes),
     JwtModule.forRoot({
       config: {
         // tslint:disable-next-line:object-literal-shorthand
         tokenGetter: tokenGetter,
-        allowedDomains: ['http://uxdeve82-001-site8.itempurl.com/'],
-        disallowedRoutes:  ['http://uxdeve82-001-site8.itempurl.com/api/auth']
+        allowedDomains: ['http://icreatesites4u.com/'],
+        disallowedRoutes:  ['http://icreatesites4u.com/api/auth']
       }
     })
 
@@ -134,7 +154,8 @@ export function tokenGetter() {
     ErrorInterceptorProvider,
     PreventUnsavedChanges,
     ListsResolver,
-    MessagesResolver
+    MessagesResolver,
+    AdminService
   ],
   bootstrap: [AppComponent]
 })

@@ -8,27 +8,33 @@
           <div class="collapse navbar-collapse" [ngClass]="{'show': navbarOpen}">
               <ul class="navbar-nav mr-auto">
                   <li class="nav-item dropdown" dropdown routerLinkActive="active">
-                    <a class="nav-link dropdown-toggle" [routerLink]="['/about']" dropdownToggle>About</a>
-                    <div class="dropdown-menu mt-2" *dropdownMenu>
-                      <a class="dropdown-item" [routerLink]="['/members']">Meet the Team</a>
-                      <a class="dropdown-item" [routerLink]="['/tools']">Web Development Tools</a>
-                      <a class="dropdown-item" [routerLink]="['/links']">Free Resources</a>
-                    </div>
+                      <a class="nav-link dropdown-toggle" [routerLink]="['/about']" dropdownToggle>About</a>
+                      <div class="dropdown-menu mt-2" *dropdownMenu>
+                          <a class="dropdown-item" [routerLink]="['/community']">Community</a>
+                          <a class="dropdown-item" [routerLink]="['/portfolio']">Portfolio</a>
+                          <a class="dropdown-item" [routerLink]="['/contact']">Contact Us</a>
+                          <a class="dropdown-item" [routerLink]="['/blog']">Blog</a>
+                          <a class="dropdown-item" [routerLink]="['/tools']">Web Development Tools</a>
+                          <a class="dropdown-item" [routerLink]="['/links']">Free Resources</a>
+                      </div>
                   </li>
-                  <li class="nav-item" routerLinkActive="active">
-                    <a class="nav-link" [routerLink]="['/portfolio']">Portfolio</a>
+                  <li *ngIf="loggedIn()" class="nav-item" routerLinkActive="active">
+                    <a class="nav-link" [routerLink]="['/members']">Members</a>
                   </li>
-                  <li class="nav-item" routerLinkActive="active">
-                      <a class="nav-link" [routerLink]="['/contact']">Contact Us</a>
+                  <li *ngIf="loggedIn()" class="nav-item" routerLinkActive="active">
+                      <a class="nav-link" [routerLink]="['/lists']">Lists</a>
                   </li>
-                  <li class="nav-item" routerLinkActive="active">
-                      <a class="nav-link" [routerLink]="['/blog']">Blog</a>
+                  <li *ngIf="loggedIn()" class="nav-item" routerLinkActive="active">
+                      <a class="nav-link" [routerLink]="['/messages']">Messages</a>
+                  </li>
+                   <li *ngIf="loggedIn()" class="nav-item" routerLinkActive="active">
+                       <a *appHasRole="['Admin','Moderator']" class="nav-link" [routerLink]="['/admin']">Admin-Panel</a>
                   </li>
               </ul>
               <ul class="navbar-nav">
-                <li *ngIf="!loggedIn()" class="nav-item" routerLinkActive="active">
-                  <a class="nav-link" [routerLink]="['/login']">Login</a>
-                </li>
+                  <li *ngIf="!loggedIn()" class="nav-item" routerLinkActive="active">
+                    <a class="nav-link" [routerLink]="['/login']">Login</a>
+                  </li>
               </ul>
               <div *ngIf="loggedIn()" class="dropdown" dropdown>
                       <span class="mr-1">
@@ -38,15 +44,9 @@
                         Welcome {{authService.decodedToken?.unique_name | titlecase }}
                       </a>
                       <div class="dropdown-menu mt-2" aria-labelledby="dropdown01" *dropdownMenu>
-                            <a class="dropdown-item" [routerLink]="['/panel']">
-                              <i class="fa fa-window-maximize"></i>Control Panel</a>
                             <a class="dropdown-item" [routerLink]="['/member/edit']">
                               <i class="fa fa-user"></i>Edit Profile</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" [routerLink]="['/lists']">
-                              <i class="fa fa-user"></i>Lists</a>
-                              <a class="dropdown-item" [routerLink]="['/messages']">
-                                <i class="fa fa-user"></i>Messages</a>
                             <a class="dropdown-item" (click)="logout()">
                               <i class="fa fa-sign-out"></i>Logout</a>
                       </div>

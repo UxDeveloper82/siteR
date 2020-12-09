@@ -5,14 +5,13 @@ import { User } from '../_models/user';
 import { Message} from '../_models/message';
 import { PaginatedResult } from '../_models/pagination';
 import { Observable } from 'rxjs';
-import { environment } from 'src/environments/environment';
 import { map } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
 })
 export class UserService {
-    baseUrl = environment.apiUrl;
+    baseUrl = 'http://icreatesites4u.com/api/';
 
 constructor(private http: HttpClient) { }
 

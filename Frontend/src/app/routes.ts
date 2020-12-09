@@ -27,6 +27,8 @@ import { ListsComponent } from './lists/lists.component';
 import { ListsResolver } from './_resolvers/lists.resolver';
 import { MessagesComponent } from './messages/messages.component';
 import { MessagesResolver } from './_resolvers/messages.resolver';
+import { CommunityComponent } from './community/community.component';
+import { AdminPanelComponent } from './admin/admin-panel/admin-panel.component';
 
 export const appRoutes: Routes = [
     {path: 'home', component: HomeComponent},
@@ -43,10 +45,12 @@ export const appRoutes: Routes = [
           {path: 'member/edit', component: MemberEditComponent,
             resolve: {user: MemberEditResolver}, canDeactivate: [PreventUnsavedChanges]},
           { path: 'udpate-portfolio', component: PortfolioUpdateComponent},
-          { path: 'new-portfolio', component: PortfolioNewComponent}
+          { path: 'new-portfolio', component: PortfolioNewComponent},
+          { path: 'admin', component: AdminPanelComponent, data: { roles: ['Admin', 'Moderator']}},
       ]
     },
     {path: 'about', component: AboutComponent},
+    { path: 'community', component: CommunityComponent},
     {path: 'login', component: LoginComponent},
     { path: 'contact', component: ContactComponent },
     { path: 'blog', component: BlogListComponent,

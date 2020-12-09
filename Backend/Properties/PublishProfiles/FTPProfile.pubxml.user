@@ -11,10 +11,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="appsettings.Development.json">
-      <publishTime>12/05/2020 22:12:55</publishTime>
+      <publishTime>12/09/2020 01:50:31</publishTime>
     </File>
     <File Include="appsettings.json">
-      <publishTime>12/05/2020 22:56:29</publishTime>
+      <publishTime>12/07/2020 07:19:30</publishTime>
     </File>
     <File Include="AutoMapper.dll">
       <publishTime>08/12/2019 12:42:04</publishTime>
@@ -30,6 +30,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Microsoft.AspNetCore.Authentication.JwtBearer.dll">
       <publishTime>09/15/2019 21:01:48</publishTime>
+    </File>
+    <File Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll">
+      <publishTime>11/16/2019 11:19:48</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.JsonPatch.dll">
       <publishTime>11/16/2019 11:17:28</publishTime>
@@ -158,19 +161,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/15/2018 13:29:44</publishTime>
     </File>
     <File Include="sideR.deps.json">
-      <publishTime>12/05/2020 23:22:44</publishTime>
+      <publishTime>12/09/2020 01:51:41</publishTime>
     </File>
     <File Include="sideR.dll">
-      <publishTime>12/05/2020 23:22:43</publishTime>
+      <publishTime>12/09/2020 01:51:41</publishTime>
     </File>
     <File Include="sideR.exe">
-      <publishTime>12/05/2020 23:22:43</publishTime>
+      <publishTime>12/09/2020 01:51:41</publishTime>
     </File>
     <File Include="sideR.pdb">
-      <publishTime>12/05/2020 23:22:43</publishTime>
+      <publishTime>12/09/2020 01:51:41</publishTime>
     </File>
     <File Include="sideR.runtimeconfig.json">
-      <publishTime>12/05/2020 22:35:15</publishTime>
+      <publishTime>12/08/2020 21:38:35</publishTime>
     </File>
     <File Include="SQLitePCLRaw.batteries_v2.dll">
       <publishTime>11/01/2019 17:24:10</publishTime>
@@ -197,10 +200,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/15/2018 13:29:44</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>12/05/2020 23:22:45</publishTime>
+      <publishTime>12/09/2020 01:51:42</publishTime>
     </File>
     <File Include="wwwroot/3rdpartylicenses.txt">
-      <publishTime>12/05/2020 23:17:12</publishTime>
+      <publishTime>12/09/2020 01:44:19</publishTime>
     </File>
     <File Include="wwwroot/assets/images/about-bg.jpg">
       <publishTime>08/18/2020 00:12:34</publishTime>
@@ -500,43 +503,100 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/29/2020 06:54:39</publishTime>
     </File>
     <File Include="wwwroot/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf">
-      <publishTime>12/05/2020 23:17:12</publishTime>
+      <publishTime>12/09/2020 01:44:19</publishTime>
     </File>
     <File Include="wwwroot/fontawesome-webfont.20fd1704ea223900efa9.woff2">
-      <publishTime>12/05/2020 23:17:12</publishTime>
+      <publishTime>12/09/2020 01:44:19</publishTime>
     </File>
     <File Include="wwwroot/fontawesome-webfont.8b43027f47b20503057d.eot">
-      <publishTime>12/05/2020 23:17:12</publishTime>
+      <publishTime>12/09/2020 01:44:19</publishTime>
     </File>
     <File Include="wwwroot/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg">
-      <publishTime>12/05/2020 23:17:12</publishTime>
+      <publishTime>12/09/2020 01:44:19</publishTime>
     </File>
     <File Include="wwwroot/fontawesome-webfont.f691f37e57f04c152e23.woff">
-      <publishTime>12/05/2020 23:17:12</publishTime>
+      <publishTime>12/09/2020 01:44:19</publishTime>
     </File>
     <File Include="wwwroot/index.html">
-      <publishTime>12/05/2020 23:17:13</publishTime>
+      <publishTime>12/09/2020 01:44:20</publishTime>
+    </File>
+    <File Include="wwwroot/main.0100dfc6cb3117f93e91.js">
+      <publishTime>12/06/2020 16:23:11</publishTime>
     </File>
     <File Include="wwwroot/main.0fe4a036301c4aebfb8f.js">
-      <publishTime>12/05/2020 23:17:12</publishTime>
+      <publishTime>12/06/2020 08:55:36</publishTime>
+    </File>
+    <File Include="wwwroot/main.110728de8e160d0aa833.js">
+      <publishTime>12/08/2020 07:10:37</publishTime>
+    </File>
+    <File Include="wwwroot/main.12275de695bd604037a9.js">
+      <publishTime>12/08/2020 22:51:31</publishTime>
+    </File>
+    <File Include="wwwroot/main.2949074ffaa7d53304cf.js">
+      <publishTime>12/06/2020 09:16:27</publishTime>
+    </File>
+    <File Include="wwwroot/main.37d828b99c1012386b24.js">
+      <publishTime>12/06/2020 09:34:02</publishTime>
+    </File>
+    <File Include="wwwroot/main.3cf6fd0d8c5802f74f0a.js">
+      <publishTime>12/08/2020 23:28:34</publishTime>
+    </File>
+    <File Include="wwwroot/main.3f5d990084be27ed9362.js">
+      <publishTime>12/06/2020 16:39:44</publishTime>
+    </File>
+    <File Include="wwwroot/main.5871236ebf23281edbaf.js">
+      <publishTime>12/09/2020 01:44:19</publishTime>
+    </File>
+    <File Include="wwwroot/main.5b5b321164d0c6415d69.js">
+      <publishTime>12/06/2020 10:50:42</publishTime>
     </File>
     <File Include="wwwroot/main.5f75579405d944917d5d.js">
       <publishTime>12/05/2020 12:50:51</publishTime>
+    </File>
+    <File Include="wwwroot/main.6cdd2fdfc8099107dfff.js">
+      <publishTime>12/06/2020 09:06:51</publishTime>
+    </File>
+    <File Include="wwwroot/main.8ae53bf457a7fe0578ff.js">
+      <publishTime>12/09/2020 01:36:24</publishTime>
+    </File>
+    <File Include="wwwroot/main.a9e98eb46e4a4be9cced.js">
+      <publishTime>12/08/2020 23:34:49</publishTime>
+    </File>
+    <File Include="wwwroot/main.b5a88afe1a892d3eded2.js">
+      <publishTime>12/06/2020 15:31:29</publishTime>
+    </File>
+    <File Include="wwwroot/main.ba635eabc3c57ba5aeb4.js">
+      <publishTime>12/09/2020 01:05:56</publishTime>
+    </File>
+    <File Include="wwwroot/main.bc41a1924505ecc3279d.js">
+      <publishTime>12/08/2020 22:59:51</publishTime>
+    </File>
+    <File Include="wwwroot/main.bfaeff1ca822460de44a.js">
+      <publishTime>12/07/2020 23:38:26</publishTime>
+    </File>
+    <File Include="wwwroot/main.c46ad94ca450c1910ac6.js">
+      <publishTime>12/06/2020 15:12:24</publishTime>
+    </File>
+    <File Include="wwwroot/main.d73cb21b507027160489.js">
+      <publishTime>12/08/2020 07:25:58</publishTime>
+    </File>
+    <File Include="wwwroot/main.f01ffbe62b7d81d07d27.js">
+      <publishTime>12/06/2020 16:47:02</publishTime>
     </File>
     <File Include="wwwroot/main.f9b8d6098222335d8da7.js">
       <publishTime>12/05/2020 23:06:21</publishTime>
     </File>
     <File Include="wwwroot/polyfills.a4021de53358bb0fec14.js">
-      <publishTime>12/05/2020 23:17:12</publishTime>
+      <publishTime>12/09/2020 01:44:19</publishTime>
     </File>
     <File Include="wwwroot/runtime.e227d1a0e31cbccbf8ec.js">
-      <publishTime>12/05/2020 23:17:12</publishTime>
+      <publishTime>12/09/2020 01:44:19</publishTime>
     </File>
     <File Include="wwwroot/scripts.e3f1622784b881f14c87.js">
-      <publishTime>12/05/2020 23:17:12</publishTime>
+      <publishTime>12/09/2020 01:44:19</publishTime>
     </File>
     <File Include="wwwroot/styles.c1d213cad6215b56b000.css">
-      <publishTime>12/05/2020 23:17:12</publishTime>
+      <publishTime>12/09/2020 01:44:19</publishTime>
     </File>
   </ItemGroup>
 </Project>

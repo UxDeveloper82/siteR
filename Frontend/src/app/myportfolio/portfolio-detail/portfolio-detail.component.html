@@ -18,21 +18,21 @@
           <div class="card-body">
             <h1 class="card-title">Project {{port.name}}</h1>
             <div>
-               <strong>Technologies</strong>
-                   {{port.type}}
-            </div> <hr>
+               <strong>Technologies: </strong>
+                   <button class="btn btn-info">{{port.type}}</button>
+            </div>
+            <hr>
             <div>
                 <strong>Build With: </strong>
-                    {{port.language}}
+                    <button class="btn btn-warning">{{port.language}}</button>
             </div>
             <div>
-                <strong>Link: </strong>
-                  <a href="{{port.link}}" class="btn btn-success">{{port.link}}</a>
+                <strong>Link:</strong>
+                  <a href="{{port.link}}" class="btn btn-warning">{{port.link}}</a>
             </div>
           </div>
           <div class="card-footer">
             <div class="btn-group d-flex">
-              <button class="btn btn-primary">Like</button>
               <button [routerLink]="['/contact']" class="btn btn-success">Message</button>
             </div>
           </div>

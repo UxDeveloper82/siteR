@@ -76,3 +76,4 @@ C:\Users\Elect\source\repos\sideR\Backend\bin\Release\netcoreapp3.1\runtimes\uni
 C:\Users\Elect\source\repos\sideR\Backend\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Elect\source\repos\sideR\Backend\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Elect\source\repos\sideR\backend\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Elect\source\repos\sideR\backend\bin\Release\netcoreapp3.1\Data\PortsSeedData.json

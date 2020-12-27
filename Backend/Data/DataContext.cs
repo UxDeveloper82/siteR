@@ -20,9 +20,10 @@ namespace sideR.Data
 
         public DbSet<Message> Messages { get; set; }
 
-        public DbSet<Product> Products { get; set; }
-        public DbSet<ProductBrand> ProductBrands { get; set; }
-        public DbSet<ProductType> ProductTypes { get; set; }
+        public DbSet<Port> Ports { get; set; }
+
+        public DbSet<PortPhoto> PortPhotos { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

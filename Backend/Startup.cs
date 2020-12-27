@@ -1,6 +1,7 @@
 using AutoMapper;
 using Backend.Data;
 using Backend.Helpers;
+using Backend.Interfaces;
 using Backend.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
@@ -90,7 +91,9 @@ namespace sideR
             services.AddCors();
             services.Configure<CloudinarySettings>(Configuration.GetSection("CloudinarySettings"));
             services.AddAutoMapper(typeof(TechRepository).Assembly);
+            services.AddAutoMapper(typeof(PortRepository).Assembly);
             services.AddScoped<ITechRepository, TechRepository>();
+            services.AddScoped<IPortRepository, PortRepository>();
             services.AddScoped<LogUserActivity>();
         }
 

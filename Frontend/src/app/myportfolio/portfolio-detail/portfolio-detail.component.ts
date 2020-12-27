@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { NgxGalleryOptions, NgxGalleryImage, NgxGalleryAnimation } from 'ngx-gallery-9';
 import { ActivatedRoute } from '@angular/router';
 import { UserService } from 'src/app/_services/user.service';
-import { Port } from 'src/app/_models/port';
+import { IPort } from 'src/app/_models/port';
 import { AlertifyService } from 'src/app/_services/alertify.service';
 
 @Component({

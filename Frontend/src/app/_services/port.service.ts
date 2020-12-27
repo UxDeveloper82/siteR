@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Port } from '../_models/port';
+import { IPort } from '../_models/port';
 import { Observable } from 'rxjs';
 import { environment } from 'src/environments/environment';
 
@@ -8,22 +8,22 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class PortService {
-  baseUrl = environment.apiUrl;
-  port: Port[];
+  baseUrl = 'http://icreatesites4u.com/api/';
+  port: IPort[];
 
 constructor(private http: HttpClient) { }
 
-getPorts(): Observable<Port[]> {
-    return this.http.get<Port[]>(this.baseUrl + 'ports');
+getPorts(): Observable<IPort[]> {
+    return this.http.get<IPort[]>(this.baseUrl + 'ports');
  }
 
- getPort(id): Observable<Port> {
-   return this.http.get<Port>(this.baseUrl + 'ports/' + id);
+ getPort(id): Observable<IPort> {
+   return this.http.get<IPort>(this.baseUrl + 'ports/' + id);
  }
 
  // tslint:disable-next-line: typedef
- updatePorts(port: Port) {
-   return this.http.put(this.baseUrl + 'ports/' + port.id, port);
+ updatePorts(id: number, port: IPort) {
+   return this.http.put(this.baseUrl + 'ports/' + id, port);
  }
 
 }

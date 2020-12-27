@@ -1,0 +1,19 @@
+<div class="inside-box">
+  <img
+    class="img-thumbnail"
+    src="{{ port.photoUrl || '../../assets/user.png' }}"
+    alt="ultimate-website"
+  />
+  <div class="overlay">
+    <div class="text">
+      <h3 class="text-left">
+        <a href="{{ port.link }}">{{ port.name }} ..Click Here</a>
+      </h3>
+      <a
+        [routerLink]="['/portfolio/', port.id]"
+        class="btn btn-primary btn-outline"
+        >Detail Page</a
+      >
+    </div>
+  </div>
+</div>

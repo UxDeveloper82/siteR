@@ -105,13 +105,14 @@ C:\Users\Elect\source\repos\sideR\backend\obj\Release\netcoreapp3.1\PubTmp\Out\w
 C:\Users\Elect\source\repos\sideR\backend\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg
 C:\Users\Elect\source\repos\sideR\backend\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\fontawesome-webfont.f691f37e57f04c152e23.woff
 C:\Users\Elect\source\repos\sideR\backend\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\index.html
-C:\Users\Elect\source\repos\sideR\backend\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\main.225f9e1758cf65e59f29.js
+C:\Users\Elect\source\repos\sideR\backend\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\main.1b4f2261ac4ecafc17e1.js
 C:\Users\Elect\source\repos\sideR\backend\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\polyfills.a4021de53358bb0fec14.js
 C:\Users\Elect\source\repos\sideR\backend\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\runtime.e227d1a0e31cbccbf8ec.js
 C:\Users\Elect\source\repos\sideR\backend\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\scripts.e3f1622784b881f14c87.js
 C:\Users\Elect\source\repos\sideR\backend\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\styles.c1d213cad6215b56b000.css
 C:\Users\Elect\source\repos\sideR\backend\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
 C:\Users\Elect\source\repos\sideR\backend\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+C:\Users\Elect\source\repos\sideR\backend\obj\Release\netcoreapp3.1\PubTmp\Out\Data\PortsSeedData.json
 C:\Users\Elect\source\repos\sideR\backend\obj\Release\netcoreapp3.1\PubTmp\Out\Data\UserSeedData.json
 C:\Users\Elect\source\repos\sideR\backend\obj\Release\netcoreapp3.1\PubTmp\Out\sideR.dll
 C:\Users\Elect\source\repos\sideR\backend\obj\Release\netcoreapp3.1\PubTmp\Out\sideR.runtimeconfig.json

@@ -1,0 +1,336 @@
+[
+ {
+         "Name": "Friends-Website",
+         "Type": "angular",
+         "Detail": "Asp.net core Application",
+         "Language": "C#",
+         "Link": "http://uxdeve82-001-site2.itempurl.com/",
+         "Gitlink": "https://github.com/UxDeveloper82/DatingApp",
+         "PortPhotos": [
+            {
+              "url": "https://www.volusion.com/blog/content/images/2018/11/What-is-a-Hyperlink.png",
+              "isMain": true,
+              "description": "Amet officia enim pariatur mollit tempor in ut."
+            }
+          ]
+     },
+    {
+        "Name": "Parts-Inventory",
+        "Type": "core",
+        "Detail": "Asp.net Framework Application",
+        "Language": "C#",
+        "Link": "http://uxdeve82-001-site9.itempurl.com/",
+        "Gitlink": "https://github.com/UxDeveloper82/InventoryR",
+        "PortPhotos": [
+            {
+              "url": "https://www.volusion.com/blog/content/images/2018/11/What-is-a-Hyperlink.png",
+              "isMain": true,
+              "description": "Amet officia enim pariatur mollit tempor in ut."
+            }
+          ]
+    },
+    {
+        "Name": "Appliance Web",
+        "Type": "core",
+        "Detail": "Asp.net Framework Application",
+        "Language": "C#",
+        "Link": "http://uxdeve82-001-site3.itempurl.com/",
+        "Gitlink": "https://github.com/UxDeveloper82/Blog",
+        "PortPhotos": [
+            {
+              "url": "https://www.volusion.com/blog/content/images/2018/11/What-is-a-Hyperlink.png",
+              "isMain": true,
+              "description": "Amet officia enim pariatur mollit tempor in ut."
+            }
+          ]
+    },
+    {
+        "Name": "BudgetApp",
+        "Type": "javascript",
+        "Detail": "Javascript App",
+        "Language": "Javascript",
+        "Link": "https://uxdeveloper82.github.io/budgetjs/index.html",
+        "Gitlink": "https://github.com/UxDeveloper82/budgetjs",
+        "PortPhotos": [
+            {
+              "url": "https://www.volusion.com/blog/content/images/2018/11/What-is-a-Hyperlink.png",
+              "isMain": true,
+              "description": "Amet officia enim pariatur mollit tempor in ut."
+            }
+          ]
+    },
+    {
+    
+        "Name": "Ecommerce-Desing",
+        "Type": "javascript",
+        "Detail": "Javascript App",
+        "Language": "Javascript",
+        "Link": "https://uxdeveloper82.github.io/myEcommerce/",
+        "Gitlink": "https://github.com/UxDeveloper82/myEcommerce",
+        "PortPhotos": [
+            {
+              "url": "https://www.volusion.com/blog/content/images/2018/11/What-is-a-Hyperlink.png",
+              "isMain": true,
+              "description": "Amet officia enim pariatur mollit tempor in ut."
+            }
+          ]
+    },
+    {
+ 
+        "Name": "GithubFinder-Desing",
+        "Type": "javascript",
+        "Detail": "Javascript App",
+        "Language": "Javascript",
+        "Link": "https://uxdeveloper82.github.io/gitFinder-index.html/",
+        "Gitlink": "https://github.com/UxDeveloper82/gitFinder-index.html",
+        "PortPhotos": [
+            {
+              "url": "https://www.volusion.com/blog/content/images/2018/11/What-is-a-Hyperlink.png",
+              "isMain": true,
+              "description": "Amet officia enim pariatur mollit tempor in ut."
+            }
+          ]
+    },
+    {
+  
+        "Name": "Fix-top",
+        "Type": "templates",
+        "Detail": "Javascript App",
+        "Language": "Html-css",
+        "Link": "https://uxdeveloper82.github.io/fix-top/",
+        "Gitlink": "https://github.com/UxDeveloper82/fix-top",
+        "PortPhotos": [
+            {
+              "url": "https://www.volusion.com/blog/content/images/2018/11/What-is-a-Hyperlink.png",
+              "isMain": true,
+              "description": "Amet officia enim pariatur mollit tempor in ut."
+            }
+          ]
+    },
+    {
+ 
+        "Name": "Photography-light",
+        "Type": "templates",
+        "Detail": "Javascript App",
+        "Language": "Html-css",
+        "Link": "https://uxdeveloper82.github.io/photography-index.html/",
+        "Gitlink":"https://github.com/UxDeveloper82/photography-index.html",
+        "PortPhotos": [
+            {
+              "url": "https://www.volusion.com/blog/content/images/2018/11/What-is-a-Hyperlink.png",
+              "isMain": true,
+              "description": "Amet officia enim pariatur mollit tempor in ut."
+            }
+          ]
+    },
+    {
+  
+        "Name": "Numerouno Air",
+        "Type": "templates",
+        "Detail": "Javascript App",
+        "Language": "Html-css",
+        "Link": "http://uxdeve82-001-site5.itempurl.com/",
+        "Gitlink":"https://github.com/UxDeveloper82/Numero-unoR",
+        "PortPhotos": [
+            {
+              "url": "https://www.volusion.com/blog/content/images/2018/11/What-is-a-Hyperlink.png",
+              "isMain": true,
+              "description": "Amet officia enim pariatur mollit tempor in ut."
+            }
+          ]
+    },
+    {
+  
+        "Name": "Split-fown",
+        "Type": "templates",
+        "Detail": "Javascript App",
+        "Language": "Html-css",
+        "Link": "https://uxdeveloper82.github.io/split-index.html/",
+        "Gitlink":"https://github.com/UxDeveloper82/split-index.html",
+        "PortPhotos": [
+            {
+              "url": "https://www.volusion.com/blog/content/images/2018/11/What-is-a-Hyperlink.png",
+              "isMain": true,
+              "description": "Amet officia enim pariatur mollit tempor in ut."
+            }
+          ]
+    },
+    {
+
+        "Name": "Grid-sign",
+        "Type": "templates",
+        "Detail": "Javascript App",
+        "Language": "Html-css",
+        "Link": "https://uxdeveloper82.github.io/Grid-index.html/",
+        "Gitlink":"https://github.com/UxDeveloper82/Grid-index.html",
+        "PortPhotos": [
+            {
+              "url": "https://www.volusion.com/blog/content/images/2018/11/What-is-a-Hyperlink.png",
+              "isMain": true,
+              "description": "Amet officia enim pariatur mollit tempor in ut."
+            }
+          ]
+    },
+    {
+  
+        "Name": "Novi-Heaven",
+        "Type": "templates",
+        "Detail": "Javascript App",
+        "Language": "Html-css",
+        "Link": "https://uxdeveloper82.github.io/novi-index.html/",
+        "Gitlink":"https://github.com/UxDeveloper82/novi-index.html",
+        "PortPhotos": [
+            {
+              "url": "https://www.volusion.com/blog/content/images/2018/11/What-is-a-Hyperlink.png",
+              "isMain": true,
+              "description": "Amet officia enim pariatur mollit tempor in ut."
+            }
+          ]
+    },
+    {
+    
+        "Name": "Mobil-Male",
+        "Type": "templates",
+        "Detail": "Javascript App",
+        "Language": "Html-css",
+        "Link": "https://uxdeveloper82.github.io/Acme-w3-index.html/",
+        "Gitlink":"https://github.com/UxDeveloper82/mobileStyle-index.html",
+        "PortPhotos": [
+            {
+              "url": "https://www.volusion.com/blog/content/images/2018/11/What-is-a-Hyperlink.png",
+              "isMain": true,
+              "description": "Amet officia enim pariatur mollit tempor in ut."
+            }
+          ]
+    },
+    {
+  
+        "Name": "Dom-Manipulating",
+        "Type": "javascript",
+        "Detail": "Javascript App",
+        "Language": "Html-css",
+        "link": "https://uxdeveloper82.github.io/DomManipulating/",
+        "Gitlink":"https://github.com/UxDeveloper82/DomManipulating",
+        "PortPhotos": [
+            {
+              "url": "https://www.volusion.com/blog/content/images/2018/11/What-is-a-Hyperlink.png",
+              "isMain": true,
+              "description": "Amet officia enim pariatur mollit tempor in ut."
+            }
+          ]
+    },
+    {
+     
+        "Name": "Dom-Manipulating1",
+        "Type": "templates",
+        "Detail": "Javascript App",
+        "Language": "Html-css",
+        "Link": "https://uxdeveloper82.github.io/Netflix-clone-index.html",
+        "Gitlink":"https://github.com/UxDeveloper82/Netflix-clone-index.html",
+        "PortPhotos": [
+            {
+              "url": "https://www.volusion.com/blog/content/images/2018/11/What-is-a-Hyperlink.png",
+              "isMain": true,
+              "description": "Amet officia enim pariatur mollit tempor in ut."
+            }
+          ]
+    },
+    {
+  
+        "Name": "Animatejs",
+        "Type": "javascript",
+        "Detail": "Javascript App",
+        "Language": "Html-css",
+        "Link": "https://uxdeveloper82.github.io/image_hide/",
+        "Gitlink":"https://github.com/UxDeveloper82/image_hide",
+        "PortPhotos": [
+            {
+              "url": "https://www.volusion.com/blog/content/images/2018/11/What-is-a-Hyperlink.png",
+              "isMain": true,
+              "description": "Amet officia enim pariatur mollit tempor in ut."
+            }
+          ]
+    },
+    {
+
+        "Name": "Data-table-js",
+        "Type": "data",
+        "Detail": "Javascript App",
+        "Language": "Html-css-js",
+        "Link": "https://uxdeveloper82.github.io/interactive_table/",
+        "Gitlink":"https://github.com/UxDeveloper82/DatatableCrud",
+        "PortPhotos": [
+            {
+              "url": "https://www.volusion.com/blog/content/images/2018/11/What-is-a-Hyperlink.png",
+              "isMain": true,
+              "description": "Amet officia enim pariatur mollit tempor in ut."
+            }
+          ]
+    },
+    {
+
+        "Name": "Fetch-data-js",
+        "Type": "javascript",
+        "Detail": "Javascript App",
+        "Language": "Html-css-js",
+        "Link": "https://uxdeveloper82.github.io/FetchApi/",
+        "Gitlink":"https://github.com/UxDeveloper82/Fetching-Data",
+        "PortPhotos": [
+            {
+              "url": "https://www.volusion.com/blog/content/images/2018/11/What-is-a-Hyperlink.png",
+              "isMain": true,
+              "description": "Amet officia enim pariatur mollit tempor in ut."
+            }
+          ]
+    },
+    {
+
+        "Name": "Crud-js",
+        "Type": "javascript",
+        "Detail": "Javascript App",
+        "Language": "Html-css-js",
+        "Link": "https://uxdeveloper82.github.io/CrudJs/index.html",
+        "Gitlink":"https://github.com/UxDeveloper82/CrudJs",
+        "PortPhotos": [
+            {
+              "url": "https://www.volusion.com/blog/content/images/2018/11/What-is-a-Hyperlink.png",
+              "isMain": true,
+              "description": "Amet officia enim pariatur mollit tempor in ut."
+            }
+          ]
+    },
+    {
+  
+        "Name": "Axios-js",
+        "Type": "javascript",
+        "Detail": "Javascript App",
+        "Language": "Html-css-js",
+        "Link": "https://uxdeveloper82.github.io/Axios/",
+        "Gitlink":"https://github.com/UxDeveloper82/Axios",
+        "PortPhotos": [
+            {
+              "url": "https://www.volusion.com/blog/content/images/2018/11/What-is-a-Hyperlink.png",
+              "isMain": true,
+              "description": "Amet officia enim pariatur mollit tempor in ut."
+            }
+          ]
+    },
+    {
+  
+        "Name": "Slide-js",
+        "Type": "javascript",
+        "Detail": "Javascript App",
+        "Language": "Html-css-js",
+        "Link": "https://uxdeveloper82.github.io/sliderjs/",
+        "Gitlink":"https://github.com/UxDeveloper82/sliderjs",
+        "PortPhotos": [
+            {
+              "url": "https://www.volusion.com/blog/content/images/2018/11/What-is-a-Hyperlink.png",
+              "isMain": true,
+              "description": "Amet officia enim pariatur mollit tempor in ut."
+            }
+          ]
+    }
+
+
+]

@@ -23,6 +23,7 @@ import { NgxGalleryModule } from 'ngx-gallery-9';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 import { ListsResolver } from './_resolvers/lists.resolver';
 import { MemberListResolver } from './_resolvers/member-list.resolver';
+import { PortEditResolver } from './_resolvers/port-edit.resolver';
 import { BlogListResolver } from './_resolvers/blog-list.resolver';
 import { MemberDetailResolver } from './_resolvers/member-detail.resolver';
 import { MemberEditResolver } from './_resolvers/member-edit.resolver';
@@ -68,6 +69,7 @@ import { PhotoManagementComponent } from './admin/photo-management/photo-managem
 import { RolesModalComponent } from './admin/roles-modal/roles-modal.component';
 import { UserManagementComponent } from './admin/user-management/user-management.component';
 import { AdminService } from './_services/admin.service';
+import { PortfolioCardComponent } from './myportfolio/portfolio-card/portfolio-card.component';
 
 // tslint:disable-next-line: typedef
 export function tokenGetter() {
@@ -109,7 +111,8 @@ export function tokenGetter() {
     HasRoleDirective,
     PhotoManagementComponent,
     RolesModalComponent,
-    UserManagementComponent
+    UserManagementComponent,
+    PortfolioCardComponent
   ],
   imports: [
     BrowserModule,
@@ -151,6 +154,7 @@ export function tokenGetter() {
     MemberListResolver,
     MemberEditResolver,
     BlogListResolver,
+    PortEditResolver,
     ErrorInterceptorProvider,
     PreventUnsavedChanges,
     ListsResolver,

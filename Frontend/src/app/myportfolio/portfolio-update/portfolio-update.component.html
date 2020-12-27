@@ -34,14 +34,16 @@
           <tab heading="Edit Portfolio">
              <form #editForm="ngForm" id="editForm" (ngSubmit)="updatePort()">
                  <h4>Project Name</h4>
-                 <input type="text" name="projectname" class="form-control"
-                    [(ngModel)]="port.projectname" required>
-                  <h4>Project Details</h4>
-                  <textarea name="projectdetails" rows="6" class="form-control"
-                    [(ngModel)]="port.projectdetails" required></textarea>
-                  <h4>Created By</h4>
-                  <input type="text" name="createdby" class="form-control"
-                      [(ngModel)]="port.createdby" required>
+                 <input type="text" name="name" class="form-control"
+                    [(ngModel)]="port.name" required>
+                  <h4>Project Type</h4>
+                  <input type="text" name="type" class="form-control"
+                      [(ngModel)]="port.type" required>
+                  <h4>Language</h4>
+                  <input type="text" name="language" class="form-control"
+                      [(ngModel)]="port.language" required>
+                  <input type="text" name="link" class="form-control"
+                      [(ngModel)]="port.link" required>
              </form>
           </tab>
           <tab heading="Edit Photos">

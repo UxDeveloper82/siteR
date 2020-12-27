@@ -24,6 +24,7 @@ import { TabsModule } from 'ngx-bootstrap/tabs';
 import { ListsResolver } from './_resolvers/lists.resolver';
 import { MemberListResolver } from './_resolvers/member-list.resolver';
 import { PortEditResolver } from './_resolvers/port-edit.resolver';
+import { PortDetailResolver } from './_resolvers/port-detail.resolver';
 import { BlogListResolver } from './_resolvers/blog-list.resolver';
 import { MemberDetailResolver } from './_resolvers/member-detail.resolver';
 import { MemberEditResolver } from './_resolvers/member-edit.resolver';
@@ -158,6 +159,7 @@ export function tokenGetter() {
     ErrorInterceptorProvider,
     PreventUnsavedChanges,
     ListsResolver,
+    PortDetailResolver,
     MessagesResolver,
     AdminService
   ],

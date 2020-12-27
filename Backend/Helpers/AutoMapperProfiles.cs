@@ -26,7 +26,7 @@ namespace Backend.Helpers
                     opt.MapFrom(d => d.DateOfBirth.CalculateAge());
                 });
             CreateMap<Port, PortForListDto>()
-                 .ForMember(m => m.PhotoUrl , opt => {
+                 .ForMember(dest => dest.PhotoUrl , opt => {
                      opt.MapFrom(src => src.PortPhotos.FirstOrDefault(p => p.IsMain).Url);
                  });
             CreateMap<Port, PortForDetailedDto>()

@@ -13,28 +13,21 @@
       <div class="col-sm-4 p-0">
         <div class="card">
           <div class="card-img-wrapper">
-            <img class="card-img-top" src="assets/images/port/default-image.png">
+            <img class="card-img-top" src="{{port.photoUrl || '../../assets/user.png' }}">
           </div>
           <div class="card-body">
-            <h1 class="card-title">Project Name</h1>
-            <div>
-                <strong></strong>
-            </div>
+            <h1 class="card-title">Project {{port.name}}</h1>
             <div>
                <strong>Technologies</strong>
+                   {{port.type}}
             </div> <hr>
             <div>
                 <strong>Build With: </strong>
-
-            </div>
-
-            <div>
-                <strong>Hours Took: </strong>
-
+                    {{port.language}}
             </div>
             <div>
-                <strong>Tech Support: </strong>
-
+                <strong>Link: </strong>
+                  <a href="{{port.link}}" class="btn btn-success">{{port.link}}</a>
             </div>
           </div>
           <div class="card-footer">

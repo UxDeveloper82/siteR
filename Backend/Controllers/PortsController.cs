@@ -41,7 +41,9 @@ namespace Backend.Controllers
         public async Task<ActionResult<Port>> GetPort(int id)
         {
             var port = await _repo.GetPort(id);
-            return Ok(port);
+
+            var portToReturn = _mapper.Map<PortForDetailedDto>(port);
+            return Ok(portToReturn);
 
         }
 

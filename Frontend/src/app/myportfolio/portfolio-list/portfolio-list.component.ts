@@ -14,13 +14,13 @@ import { IPagination } from 'src/app/_models/ipagination';
 export class PortfolioListComponent implements OnInit {
   ports: IPort[];
 
-constructor(private portService: PortService, private alertify: AlertifyService, private http: HttpClient) { }
+constructor(private portService: PortService,
+            private alertify: AlertifyService,
+            private http: HttpClient) { }
 
   ngOnInit() : void{
     this.getPorts();
   }
-
-
   getPorts() {
     this.portService.getPorts().subscribe((port: IPort[]) => {
       this.ports = port;

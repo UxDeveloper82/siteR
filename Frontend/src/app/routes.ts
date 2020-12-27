@@ -30,6 +30,7 @@ import { MessagesResolver } from './_resolvers/messages.resolver';
 import { CommunityComponent } from './community/community.component';
 import { AdminPanelComponent } from './admin/admin-panel/admin-panel.component';
 import { PortEditResolver } from './_resolvers/port-edit.resolver';
+import { PortDetailResolver } from './_resolvers/port-detail.resolver';
 
 export const appRoutes: Routes = [
     {path: 'home', component: HomeComponent},
@@ -58,7 +59,7 @@ export const appRoutes: Routes = [
     resolve: { blogs: BlogListResolver }},
     { path: 'blog/:id', component: BlogDetailComponent},
     { path: 'portfolio', component: PortfolioListComponent},
-    { path: 'portfolio/:id', component: PortfolioDetailComponent},
+    { path: 'portfolio/:id', component: PortfolioDetailComponent, resolve: { port: PortDetailResolver}},
     { path: 'tools', component: ToolsComponent},
     { path: 'links', component: LinksComponent},
     { path: 'members', component: MemberListComponent,

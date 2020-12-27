@@ -29,20 +29,21 @@ export class PortfolioUpdateComponent implements OnInit {
   }
 
   // tslint:disable-next-line: typedef
-  loadPort() {
-    // tslint:disable-next-line: no-string-literal
-    this.portService.getPort(+this.route.snapshot['id']).subscribe((port: IPort) => {
-      this.port = port;
-    }, error => {
-      this.alertify.error(error);
-    });
+  // loadPort() {
+  //   // tslint:disable-next-line: no-string-literal
+  //   this.portService.getPort(+this.route.snapshot['id']).subscribe((port: IPort) => {
+  //     this.port = port;
+  //   }, error => {
+  //     this.alertify.error(error);
+  //   });
 
-  }
+  // }
 
     // tslint:disable-next-line: typedef
     updatePort() {
       this.portService.updatePorts(this.authService.decodedToken.nameid, this.port).subscribe(next => {
          this.alertify.success('Portfolio successfully updated');
+         this.editForm.reset(this.port);
       }, error => {
         this.alertify.error(error);
       });

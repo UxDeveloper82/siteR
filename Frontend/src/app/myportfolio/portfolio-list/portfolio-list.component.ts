@@ -5,6 +5,7 @@ import { IPort } from 'src/app/_models/port';
 import { PortService } from 'src/app/_services/port.service';
 import { HttpClient } from '@angular/common/http';
 import { IPagination } from 'src/app/_models/ipagination';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-portfolio-list',
@@ -16,10 +17,15 @@ export class PortfolioListComponent implements OnInit {
 
 constructor(private portService: PortService,
             private alertify: AlertifyService,
+            private route: ActivatedRoute,
             private http: HttpClient) { }
 
   ngOnInit() : void{
     this.getPorts();
+    // this.route.data.subscribe(data => {
+    //   // tslint:disable-next-line:no-string-literal
+    //   this.ports = data['ports'];
+    // })
   }
   getPorts() {
     this.portService.getPorts().subscribe((port: IPort[]) => {

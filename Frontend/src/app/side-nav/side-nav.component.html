@@ -30,8 +30,11 @@
                   <li class="nav-item" routerLinkActive="active">
                       <a class="list-group-item list-group-item-action bg-light link-collapse" asp-controller="Home" asp-action="Index">About-Page</a>
                   </li>
+                   <li class="nav-item" routerLinkActive="active">
+                    <a class="list-group-item list-group-item-action bg-light link-collapse" [routerLink]="['/admin/port/lists']">Portfolio-lists</a>
+                  </li>
                   <li class="nav-item" routerLinkActive="active">
-                    <a class="list-group-item list-group-item-action bg-light link-collapse" [routerLink]="['/portfolio/update']">Udpate-Portfolio</a>
+                    <a class="list-group-item list-group-item-action bg-light link-collapse" [routerLink]="['/portfolio/edit']">Edit-Portfolio</a>
                   </li>
                   <li class="nav-item" routerLinkActive="active">
                     <a class="list-group-item list-group-item-action bg-light link-collapse" [routerLink]="['/new-portfolio']">Create-Portfolio</a>

@@ -71,6 +71,9 @@ import { RolesModalComponent } from './admin/roles-modal/roles-modal.component';
 import { UserManagementComponent } from './admin/user-management/user-management.component';
 import { AdminService } from './_services/admin.service';
 import { PortfolioCardComponent } from './myportfolio/portfolio-card/portfolio-card.component';
+import { PortListComponent } from './admin/port-list/port-list.component';
+import { NgxPaginationModule } from 'ngx-pagination';
+
 
 // tslint:disable-next-line: typedef
 export function tokenGetter() {
@@ -113,7 +116,8 @@ export function tokenGetter() {
     PhotoManagementComponent,
     RolesModalComponent,
     UserManagementComponent,
-    PortfolioCardComponent
+    PortfolioCardComponent,
+    PortListComponent
   ],
   imports: [
     BrowserModule,
@@ -129,6 +133,7 @@ export function tokenGetter() {
     TabsModule.forRoot(),
     NgxGalleryModule,
     PaginationModule.forRoot(),
+    NgxPaginationModule,
     ButtonsModule.forRoot(),
     CarouselModule.forRoot(),
     TimeagoModule.forRoot(),

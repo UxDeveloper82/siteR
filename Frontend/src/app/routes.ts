@@ -17,6 +17,7 @@ import { LinksComponent } from './links/links.component';
 import { LoginComponent } from './login/login.component';
 import { PortfolioDetailComponent } from './myportfolio/portfolio-detail/portfolio-detail.component';
 import { PanelComponent } from './panel/panel.component';
+
 import { BlogListComponent } from './myblog/blog-list/blog-list.component';
 import { BlogListResolver } from './_resolvers/blog-list.resolver';
 import { BlogDetailComponent } from './myblog/blog-detail/blog-detail.component';
@@ -31,6 +32,7 @@ import { CommunityComponent } from './community/community.component';
 import { AdminPanelComponent } from './admin/admin-panel/admin-panel.component';
 import { PortEditResolver } from './_resolvers/port-edit.resolver';
 import { PortDetailResolver } from './_resolvers/port-detail.resolver';
+import { PortListComponent } from './admin/port-list/port-list.component';
 
 export const appRoutes: Routes = [
     {path: 'home', component: HomeComponent},
@@ -46,7 +48,8 @@ export const appRoutes: Routes = [
           { path: 'lists', component: ListsComponent, resolve: {users: ListsResolver }},
           {path: 'member/edit', component: MemberEditComponent,
             resolve: {user: MemberEditResolver}, canDeactivate: [PreventUnsavedChanges]},
-          { path: 'portfolio/update', component: PortfolioUpdateComponent, resolve: { port: PortEditResolver}},
+          { path: 'portfolio/edit/:id', component: PortfolioUpdateComponent,
+          resolve: { port: PortEditResolver}},
           { path: 'new-portfolio', component: PortfolioNewComponent},
           { path: 'admin', component: AdminPanelComponent, data: { roles: ['Admin', 'Moderator']}},
       ]
@@ -55,8 +58,7 @@ export const appRoutes: Routes = [
     { path: 'community', component: CommunityComponent},
     {path: 'login', component: LoginComponent},
     { path: 'contact', component: ContactComponent },
-    { path: 'blog', component: BlogListComponent,
-    resolve: { blogs: BlogListResolver }},
+    { path: 'blog', component: BlogListComponent, resolve: { blogs: BlogListResolver }},
     { path: 'blog/:id', component: BlogDetailComponent},
     { path: 'portfolio', component: PortfolioListComponent},
     { path: 'portfolio/:id', component: PortfolioDetailComponent, resolve: { port: PortDetailResolver}},
@@ -64,6 +66,7 @@ export const appRoutes: Routes = [
     { path: 'links', component: LinksComponent},
     { path: 'members', component: MemberListComponent,
      resolve: { users: MemberListResolver}},
+    { path: 'admin/port/lists', component: PortListComponent},
     { path: 'members/:id', component: MemberDetailComponent,
     resolve: { user: MemberDetailResolver }},
     {path: '**', redirectTo: 'home', pathMatch: 'full'}

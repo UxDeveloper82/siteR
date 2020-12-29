@@ -105,7 +105,7 @@ C:\Users\Elect\source\repos\sideR\backend\obj\Release\netcoreapp3.1\PubTmp\Out\w
 C:\Users\Elect\source\repos\sideR\backend\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg
 C:\Users\Elect\source\repos\sideR\backend\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\fontawesome-webfont.f691f37e57f04c152e23.woff
 C:\Users\Elect\source\repos\sideR\backend\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\index.html
-C:\Users\Elect\source\repos\sideR\backend\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\main.cf1675f6b545dd545408.js
+C:\Users\Elect\source\repos\sideR\backend\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\main.7fafaa7ac57929866736.js
 C:\Users\Elect\source\repos\sideR\backend\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\polyfills.a4021de53358bb0fec14.js
 C:\Users\Elect\source\repos\sideR\backend\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\runtime.e227d1a0e31cbccbf8ec.js
 C:\Users\Elect\source\repos\sideR\backend\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\scripts.e3f1622784b881f14c87.js

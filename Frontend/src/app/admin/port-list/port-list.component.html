@@ -1,0 +1,45 @@
+<div class="container">
+                  <div class="row">
+                        <!-- Blog Entries Column -->
+                        <div class="col-md-12">
+                              <h1 class="card-my-4">Admin Panel
+                                    <br><small>Port for 2020</small>
+                                    <hr>
+                              </h1>
+                              <p>
+                              <a [routerLink]="['/new-post']" class="btn btn-primary">New Product</a>
+                              </p>
+                        </div>
+                        <div class="col-lg-12 table-responsive text-nowrap">
+                              <table class="table table-bordered table-striped w-auto">
+                                    <thead>
+                                          <th>Id</th>
+                                          <th>Name</th>
+                                          <th>Type</th>
+                                          <th>Language</th>
+                                          <th>Link</th>
+                                          <th>GitLink</th>
+                                          <th>Image</th>
+                                          <th>Edit</th>
+                                          <th>Delete</th>
+                                    </thead>
+                                    <tbody>
+                                          <tr *ngFor="let port of ports | paginate: { itemsPerPage: 10, currentPage: p} ; index as i">
+                                          <th scope="row">{{i+1}}</th>
+                                          <td>{{port.name}}</td>
+                                          <td>{{port.type}}</td>
+                                          <td>{{port.language}}</td>
+                                          <td>{{port.link}}</td>
+                                          <td>{{port.gitLink}}</td>
+                                          <td><img class="img-circle" [src]="port.photoUrl" alt="Card image cap"></td>
+                                          <td><button type="button" class="btn btn-info" [routerLink]="['/portfolio/edit/', port.id]">Edit</button></td>
+                                          <td> <button type="button" class="btn btn-danger" (click)="deletePost(port.id)">Delete</button></td>
+                                          </tr>
+                                    </tbody>
+                              </table>
+                        </div>
+                  <!-- Pagination -->
+                  <pagination-controls (pageChange)="p = $event"></pagination-controls>
+             </div>
+      </div>
+<!-- /.container -->

@@ -76,3 +76,4 @@ C:\Users\Elect\source\repos\sideR\backend\bin\Debug\netcoreapp3.1\sideR.runtimec
 C:\Users\Elect\source\repos\sideR\backend\bin\Debug\netcoreapp3.1\sideR.pdb
 C:\Users\Elect\source\repos\sideR\backend\obj\Debug\netcoreapp3.1\sideR.genruntimeconfig.cache
 C:\Users\Elect\source\repos\sideR\backend\bin\Debug\netcoreapp3.1\Data\PortsSeedData.json
+C:\Users\Elect\source\repos\sideR\backend\obj\Debug\netcoreapp3.1\sideR.csprojAssemblyReference.cache

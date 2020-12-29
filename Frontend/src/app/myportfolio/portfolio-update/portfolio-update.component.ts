@@ -22,26 +22,26 @@ export class PortfolioUpdateComponent implements OnInit {
               private router: Router) { }
 
   ngOnInit(): void {
-    this.route.data.subscribe(data => {
-      // tslint:disable-next-line:no-string-literal
-      this.port = data['port'];
-    });
+    this.loadPort();
+    // this.route.data.subscribe(data => {
+    //   // tslint:disable-next-line:no-string-literal
+    //   this.port = data['port'];
+    // });
   }
 
-  // tslint:disable-next-line: typedef
-  // loadPort() {
-  //   // tslint:disable-next-line: no-string-literal
-  //   this.portService.getPort(+this.route.snapshot['id']).subscribe((port: IPort) => {
-  //     this.port = port;
-  //   }, error => {
-  //     this.alertify.error(error);
-  //   });
+  loadPort() {
+    // tslint:disable-next-line: no-string-literal
+    this.portService.getPort(+this.route.snapshot.params['id']).subscribe((port: IPort) => {
+      this.port = port;
+    }, error => {
+      this.alertify.error(error);
+    });
 
-  // }
+  }
 
     // tslint:disable-next-line: typedef
     updatePort() {
-      this.portService.updatePorts(this.authService.decodedToken.nameid, this.port).subscribe(next => {
+      this.portService.updatePorts(this.port).subscribe(next => {
          this.alertify.success('Portfolio successfully updated');
          this.editForm.reset(this.port);
       }, error => {

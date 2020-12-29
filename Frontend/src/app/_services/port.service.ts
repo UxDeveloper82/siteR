@@ -17,13 +17,17 @@ getPorts(): Observable<IPort[]> {
     return this.http.get<IPort[]>(this.baseUrl + 'ports');
  }
 
- getPort(id): Observable<IPort> {
+getPort(id): Observable<IPort> {
    return this.http.get<IPort>(this.baseUrl + 'ports/' + id);
  }
 
  // tslint:disable-next-line: typedef
- updatePorts(id: number, port: IPort) {
-   return this.http.put(this.baseUrl + 'ports/' + id, port);
+ updatePorts(port: IPort) {
+   return this.http.put(this.baseUrl + 'ports/' + port.id, port);
  }
+
+ deletePort(id: number) {
+  return this.http.delete(this.baseUrl + '/ports/' + id);
+}
 
 }

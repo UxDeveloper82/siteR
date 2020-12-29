@@ -16,7 +16,7 @@ export class PortEditResolver implements Resolve<IPort> {
                     return this.portService.getPort(this.authService.decodedToken.nameid).pipe(
                         catchError(error => {
                             this.alertify.error('Problem retrieving your data');
-                            this.router.navigate(['/']);
+                            this.router.navigate(['/admin/port/lists']);
                             return of(null);
                         })
                     );
